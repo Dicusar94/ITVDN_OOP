@@ -7,7 +7,7 @@ public static class Program
     private static void Main()
     {
         var partialClass = new PartialClass_1();
-        partialClass.MethodFromPart1();
-        partialClass.MethodFromPart2();
+        PartialClass_1.MethodFromPart1();
+        PartialClass_1.MethodFromPart2();
     }
 }
