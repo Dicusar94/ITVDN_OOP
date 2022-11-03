@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace _004_Readonly;
+
+public static class Program
+{
+    private static void Main()
+    {
+    }
+}

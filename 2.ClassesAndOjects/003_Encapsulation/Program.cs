@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace _003_Encapsulation;
+public static class Program
+{
+    private static void Main()
+    {
+    }
+}

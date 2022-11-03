@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace _002_PartialMethods;
+
+public static class Program
+{
+    private static void Main()
+    {
+    }
+}
+

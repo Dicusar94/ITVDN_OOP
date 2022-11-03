@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace _005_SelfAssociation;
+
+public static class Program
+{
+    private static void Main()
+    {
+    }
+}
