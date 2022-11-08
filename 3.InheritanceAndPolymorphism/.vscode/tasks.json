@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/001_Inheritance/001_Inheritance.csproj",
+                "${workspaceFolder}/005_Inheritance/005_Inheritance.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/001_Inheritance/001_Inheritance.csproj",
+                "${workspaceFolder}/005_Inheritance/005_Inheritance.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/001_Inheritance/001_Inheritance.csproj"
+                "${workspaceFolder}/005_Inheritance/005_Inheritance.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
