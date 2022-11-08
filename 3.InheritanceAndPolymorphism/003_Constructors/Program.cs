@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace _003_Constructors;
+
+static class Program
+{
+    static void Main()
+    {
+        var derivedClass = new DerivedClass(20, 15);
+        var sumOfNumbers = derivedClass.GetNumberSum();
+        System.Console.WriteLine(sumOfNumbers);
+    }
+}
