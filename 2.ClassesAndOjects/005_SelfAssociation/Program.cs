@@ -1,8 +1,17 @@
-﻿namespace _005_SelfAssociation;
+﻿using Console = System.Console;
 
-public static class Program
+namespace _005_SelfAssociation;
+
+public class Program
 {
+    public void Method()
+    {
+        Console.WriteLine("Hello World");
+    }
+
     private static void Main()
     {
+        var program = new Program();
+        program.Method();
     }
 }
