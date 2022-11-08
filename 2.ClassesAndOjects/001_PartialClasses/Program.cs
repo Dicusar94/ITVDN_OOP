@@ -4,10 +4,10 @@ namespace _001_PartialClasses;
 
 public static class Program
 {
-    static void Main()
+    private static void Main()
     {
-        var partialClass = new PartialClass();
-        partialClass.MethodFromPart1();
-        partialClass.MethodFromPart2();
+        var partialClass = new PartialClass_1();
+        PartialClass_1.MethodFromPart1();
+        PartialClass_1.MethodFromPart2();
     }
 }
